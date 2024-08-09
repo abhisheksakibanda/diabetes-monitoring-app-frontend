@@ -1,0 +1,6 @@
+services:
+  name: diabetes-monitoring-app-frontend
+  type: web
+  runtime: static
+  plan: free
+  buildCommand: corepack enable&&yarn install
