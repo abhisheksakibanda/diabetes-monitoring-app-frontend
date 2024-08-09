@@ -3,4 +3,4 @@ services:
   type: web
   runtime: static
   plan: free
-  buildCommand: corepack enable&&yarn install
+  buildCommand: corepack enable&&yarn --frozen-lockfile install
